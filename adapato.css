@@ -251,10 +251,6 @@ textarea:focus {
   background: rgba(255, 255, 255, 0.04);
 }
 
-.private-channels .search-bar {
-  height: 65px;
-}
-
 .search-bar {
   border-radius: none;
   box-shadow: none;
