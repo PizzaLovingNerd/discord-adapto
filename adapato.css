@@ -1,0 +1,304 @@
+//META{"name":"Adapto","description":"A theme to match the adapta-nokto theme for Ubuntu.","author":"underclockd","version":"0.1"}*//{}
+.guilds-wrapper {
+  background: #222d32;
+  border: none;
+}
+
+.guilds-wrapper .guilds-add {
+  background: #222d32;
+  color: #ffffff;
+  border: none;
+}
+
+
+/*Header and Far Left*/
+
+.guilds-wrapper .guilds .guild .guild-inner, div .guild-inner, .theme-dark .ui-standard-sidebar-view .sidebar-region, .header, .connecting, .theme-dark #friends .friends-header, .theme-dark #friends, .search-bar {
+  background: #222d32 !important;
+}
+
+.guilds-wrapper .guild-separator:after {
+  background: #ffffff;
+}
+
+
+/*Left and Right Sidebar Color*/
+
+.theme-dark .channel-members, .guild-channels, .account, .guild-channels .channel-text.selected, #rtc-connection, .theme-dark .message-group .embed, .private-channels {
+  background-color: #243035;
+}
+
+
+/*Chat Color*/
+
+.theme-dark .friends-table .messages .divider:before, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span, .theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span, .theme-dark .friends-table .messages .divider:not(.red) div, .theme-dark .messages-wrapper .messages .divider:not(.red) div, .theme-dark .chat>.content, .theme-dark .friends-table, .theme-dark .messages-wrapper, .theme-dark .chat form .typing {
+  background-color: #263238;
+}
+
+.account .btn, #rtc-connection .btn, .theme-dark .channel-members .member:hover, .theme-dark .channel-members .member.popout-open {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.account .btn-group, #rtc-connection .btn-group, .account .btn-deafen, .account .btn-mute, .account {
+  border: none;
+}
+
+* {
+  font-family: Ubuntu;
+  font-weight: 100;
+}
+
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+  border: none;
+}
+
+.theme-dark .chat .title-wrap {
+  border: none;
+}
+
+.guild-header header {
+  box-shadow: none;
+}
+
+.guild-channels .channel-text.selected:before, .guild-channels .channel-text.selected:hover:before, .private-channels .channel.selected:before {
+  border-left: 2px solid #00bad2;
+}
+
+.channel-textarea-inner {
+  border: none;
+}
+
+.theme-dark .channel-textarea-inner {
+  background-color: transparent;
+}
+
+textarea {
+  border-bottom: 1px solid !important;
+  padding-bottom: 8px !important;
+  transition: border 0.2s ease-out;
+}
+
+textarea:focus {
+  border-bottom: 2px solid #00bad2 !important;
+  transition: border 0.2s ease-in;
+}
+
+.theme-dark .channel-textarea-emoji {
+  display: none;
+}
+
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+  border: none;
+  background-color: #5e6a6e;
+  border-radius: 0px;
+}
+
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb:hover, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb:hover {
+  background-color: #646f74;
+}
+
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb:active, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb:active {
+  background-color: #a3adb2;
+}
+
+.guild-channels .channel-text.selected {
+  background: transparent !important;
+}
+
+.account .btn-deafen, .account .btn-settings, #rtc-connection .btn-disconnect {
+  box-shadow: none;
+}
+
+#rtc-connection {
+  border: none;
+}
+
+.guild-channels .channel-text:hover {
+  background: transparent;
+}
+
+.theme-dark .chat .title-wrap, .guild-header header {
+  background-color: #222d32;
+}
+
+.guild-header header {
+  border-bottom: 1px solid #222d32;
+}
+
+#rtc-connection .btn-info {
+  border: none;
+}
+
+::selection {
+  background: #33bad2;
+}
+
+.ui-tab-bar.SIDE .ui-tab-bar-item.selected, .ui-tab-bar.SIDE .ui-tab-bar-item:active, ._3Mv0RaJ0, .ui-switch-checkbox:checked+.ui-switch, .chat .new-messages-bar, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary, .ui-standard-sidebar-view #editor-detached button, .ui-switch-wrapper:not(.disabled):not(.clear):hover .ui-switch-checkbox:checked+.ui-switch {
+  background: #00bad2;
+}
+
+.private-channels .channel.selected .icon-friends {
+  background-color: #00bad2;
+  /*i'm not dumb, this distinction was important*/
+}
+
+.ui-card.ui-card-primary.flex-horizontal.margin-bottom-8.checked.editable, .form .btn-primary, .checkbox .checkbox-inner input[type=checkbox]:checked+span, .tooltip {
+  background: #00bad2 !important;
+  border-color: #00bad2 !important;
+}
+
+.user-popout .avatar-wrapper .avatar-popout {
+  border-color: #00bad2;
+}
+
+.tooltip.tooltip-top:after {
+  border-top-color: #00bad2;
+}
+
+.tooltip.tooltip-right:after {
+  border-right-color: #00bad2;
+}
+
+.tooltip.tooltip-bottom:after {
+  border-bottom-color: #00bad2;
+}
+
+.ui-tab-bar.SIDE .ui-tab-bar-item.brand {
+  color: #00bad2;
+}
+
+.ui-checkbox-wrapper .ui-checkbox.checked polyline {
+  stroke: #00bad2 !important;
+}
+
+.ui-slider .slider-bar-fill, .chat .new-messages-bar:hover, .slider-bar-fill {
+  background-color: #4db6ac;
+}
+
+.chat .new-messages-bar button:last-child {
+  color: white;
+}
+
+.avatar-uploader-inner {
+  background: transparent;
+}
+
+.theme-dark .guild-settings-base-section .avatar-uploader .avatar-uploader-inner, .theme-dark .guild-settings-splash-section .avatar-uploader .avatar-uploader-inner {
+  box-shadow: none;
+}
+
+.user-popout .footer {
+  background: #243035;
+  border: none;
+}
+
+.user-popout .body, .form .form-inner, .modal-content {
+  background: #263238;
+}
+
+.alert.form.has-icon:before {
+  background-color: #263238 !important;
+  /*here too @127*/
+}
+
+.quick-message {
+  background: #263238;
+  border: none;
+  border-bottom: 1px solid #00bad2;
+  color: white;
+  border-radius: 0px;
+}
+
+.alert.form .form-inner h4 {
+  color: white;
+}
+
+.protip .label {
+  color: #4db6ac;
+}
+
+.member-roles .member-role {
+  border: none;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.guild-header.popout-open header, .guild-header header:hover {
+  background: #263136;
+}
+
+.theme-dark.context-menu, .theme-dark.context-menu .item, .theme-dark.context-menu .context-menu {
+  background: #28343a;
+}
+
+.context-menu {
+  border-radius: 1px;
+}
+
+.theme-dark.context-menu .item:hover, .private-channels .channel:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.context-menu.item, .theme-dark.context-menu .item-subMenu {
+  border-radius: none;
+}
+
+.theme-dark.context-menu .item-subMenu {
+  background: #28343a url(/assets/1988164a7c55346d32117b151f4e319d.svg) no-repeat 155px 50% !important;
+}
+
+.private-channels .channel.selected {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.private-channels .search-bar {
+  height: 65px;
+}
+
+.search-bar {
+  border-radius: none;
+  box-shadow: none;
+}
+
+.note textarea {
+  border-bottom: 1px solid gray;
+  transition: border 0.2s ease-out;
+}
+
+.note textarea:focus {
+  background: transparent;
+  border-bottom: 2px solid #00bad2;
+  transition: border 0.2s ease-in;
+}
+
+.theme-dark #friends .friends-table .friends-row:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.search-bar .search-bar-inner {
+  border: none;
+  border-radius: 0px;
+  background: transparent;
+}
+
+.search-bar input {
+  border-bottom: 1px solid gray;
+  transition: border 0.2s ease-out;
+}
+
+.search-bar input:focus {
+  border-bottom: 2px solid #00bad2;
+  transition: border 0.2s ease-in;
+}
+
+.theme-dark .channel-textarea-inner .channel-textarea-upload {
+  border: none;
+}
+/*i
+just
+want
+300
+lines
+before
+first
+commit*/
