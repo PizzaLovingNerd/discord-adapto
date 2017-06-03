@@ -24,7 +24,7 @@
 
 /*Left and Right Sidebar Color*/
 
-.theme-dark .channel-members, .guild-channels, .account, .guild-channels .channel-text.selected, #rtc-connection, .theme-dark .message-group .embed, .private-channels {
+.theme-dark .channel-members, .guild-channels, .account, .guild-channels .channel-text.selected, #rtc-connection, .theme-dark .message-group .embed, .private-channels, .container-RYiLUQ {
   background-color: #243035;
 }
 
