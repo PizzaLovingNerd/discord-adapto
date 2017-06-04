@@ -13,7 +13,7 @@
 
 /*Header and Far Left*/
 
-.guilds-wrapper .guilds .guild .guild-inner, div .guild-inner, .theme-dark .ui-standard-sidebar-view .sidebar-region, .header, .connecting, .theme-dark #friends .friends-header, .theme-dark #friends, .search-bar {
+.guilds-wrapper .guilds .guild .guild-inner, div .guild-inner, .theme-dark .ui-standard-sidebar-view .sidebar-region, .header, .connecting, .theme-dark #friends .friends-header, .theme-dark #friends, .search-bar, #bd-customcss-detach-container {
   background: #222d32 !important;
 }
 
@@ -61,8 +61,15 @@
   box-shadow: none;
 }
 
-.guild-channels .channel-text.selected:before, .guild-channels .channel-text.selected:hover:before, .private-channels .channel.selected:before {
+.guild-channels .channel-text.selected:before, .guild-channels .channel-text.selected:hover:before, .private-channels .channel.selected:before, .contentSelectedText-3j5CXt {
   border-left: 2px solid #00bad2;
+  border-radius: 0;
+  transition: border 0.2s ease-in;
+}
+
+.contentDefaultText-2elG3R {
+  transition: border 0.2s ease-out;
+  border-radius: 0;
 }
 
 .channel-textarea-inner {
@@ -74,7 +81,7 @@
 }
 
 textarea {
-  border-bottom: 1px solid !important;
+  border-bottom: 1px solid #3e494e !important;
   padding-bottom: 8px !important;
   transition: border 0.2s ease-out;
 }
@@ -100,6 +107,10 @@ textarea:focus {
 
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb:active, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb:active {
   background-color: #a3adb2;
+}
+
+.contentHoveredText-2HYGIY {
+  background-color: transparent;
 }
 
 .guild-channels .channel-text.selected {
@@ -257,9 +268,10 @@ textarea:focus {
 }
 
 .note textarea {
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #3e494e;
   transition: border 0.2s ease-out;
 }
+
 
 .note textarea:focus {
   background: transparent;
@@ -270,7 +282,9 @@ textarea:focus {
 .theme-dark #friends .friends-table .friends-row:hover {
   background: rgba(255, 255, 255, 0.02);
 }
-
+.name-2SL4ev {
+  font-weight: 300;
+}
 .search-bar .search-bar-inner {
   border: none;
   border-radius: 0px;
@@ -278,7 +292,7 @@ textarea:focus {
 }
 
 .search-bar input {
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #3e494e;
   transition: border 0.2s ease-out;
 }
 
@@ -290,11 +304,7 @@ textarea:focus {
 .theme-dark .channel-textarea-inner .channel-textarea-upload {
   border: none;
 }
-/*i
-just
-want
-300
-lines
-before
-first
-commit*/
+.content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
+  background-color: #243035;
+  box-shadow: none;
+}
