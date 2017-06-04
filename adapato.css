@@ -1,9 +1,13 @@
 //META{"name":"Adapto","description":"A theme to match the adapta-nokto theme for Ubuntu.","author":"underclockd","version":"0.1"}*//{}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu|Ubuntu+Mono');
 .guilds-wrapper {
   background: #222d32;
   border: none;
+  z-index: 4;
 }
-
+.theme-dark .message-group a, .theme-dark .chat .welcome-message a {
+  color: #00bad2;
+}
 .guilds-wrapper .guilds-add {
   background: #222d32;
   color: #ffffff;
@@ -45,20 +49,11 @@
 
 * {
   font-family: Ubuntu;
-  font-weight: 100;
-}
-
-.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
-  background-color: transparent;
-  border: none;
+  font-weight: 200;
 }
 
 .theme-dark .chat .title-wrap {
   border: none;
-}
-
-.guild-header header {
-  box-shadow: none;
 }
 
 .guild-channels .channel-text.selected:before, .guild-channels .channel-text.selected:hover:before, .private-channels .channel.selected:before, .contentSelectedText-3j5CXt {
@@ -94,19 +89,23 @@ textarea:focus {
 .theme-dark .channel-textarea-emoji {
   display: none;
 }
-
-.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
-  border: none;
-  background-color: #5e6a6e;
-  border-radius: 0px;
+/*scrollbars*/
+::-webkit-scrollbar-track-piece {
+  background-color: transparent !important;
+  border: none !important;
+}
+::-webkit-scrollbar-thumb {
+  border: none !important;
+  background-color: #5e6a6e !important;
+  border-radius: 1px !important;
 }
 
-.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb:hover, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb:hover {
-  background-color: #646f74;
+::-webkit-scrollbar-thumb:hover {
+  background-color: #646f74 !important;
 }
 
-.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb:active, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb:active {
-  background-color: #a3adb2;
+::-webkit-scrollbar-thumb:active {
+  background-color: #a3adb2 !important;
 }
 
 .contentHoveredText-2HYGIY {
@@ -131,10 +130,6 @@ textarea:focus {
 
 .theme-dark .chat .title-wrap, .guild-header header {
   background-color: #222d32;
-}
-
-.guild-header header {
-  border-bottom: 1px solid #222d32;
 }
 
 #rtc-connection .btn-info {
@@ -283,7 +278,7 @@ textarea:focus {
   background: rgba(255, 255, 255, 0.02);
 }
 .name-2SL4ev {
-  font-weight: 300;
+  font-weight: 400;
 }
 .search-bar .search-bar-inner {
   border: none;
@@ -307,4 +302,51 @@ textarea:focus {
 .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
   background-color: #243035;
   box-shadow: none;
+}
+.mention {
+  color: #00bad2;
+}
+.theme-dark .message-group .comment .markup .mention {
+  background-color: rgba(0, 186, 210, 0.1);
+}
+.theme-dark .message-group .comment .markup .mention:hover {
+  background-color: rgba(0, 186, 210, 0.3);
+}
+.contentSelectedText-3j5CXt {
+  background: rgba(255, 255, 255, 0.02);
+}
+.tooltip.tooltip-error {
+  background-color: #d11800 !important;
+}
+.tooltip.tooltip-error.tooltip-right:after {
+  border-right-color: #d11800;
+}
+.guilds-wrapper .guilds-error {
+  border-color: #d11800;
+  background: rgba(209, 24, 0, 0.1);
+}
+.guilds-wrapper .guilds-error:hover {
+  background-color: #d11800
+}
+.wrapper-fDmxzK /*space out channels*/ {
+  padding-bottom: 4px;
+}
+.theme-dark .chat form {
+  border: none;
+  box-shadow: none;
+}
+.modal-content .form-inner p {
+  color: #fff;
+}
+/*shadowed borders*/
+.flex-spacer.flex-vertical {
+  box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+  z-index: 1;
+}
+.chat>.title-wrap.title-wrap-dark {
+  box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+}
+.guild-header header {
+  box-shadow: -2px 1px 1px 1px rgba(0,0,0,0.15);
+  border: none;
 }
