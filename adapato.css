@@ -140,15 +140,16 @@ textarea:focus {
   background: #33bad2;
 }
 
-.ui-tab-bar.SIDE .ui-tab-bar-item.selected, .ui-tab-bar.SIDE .ui-tab-bar-item:active, ._3Mv0RaJ0, .ui-switch-checkbox:checked+.ui-switch, .chat .new-messages-bar, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary, .ui-standard-sidebar-view #editor-detached button, .ui-switch-wrapper:not(.disabled):not(.clear):hover .ui-switch-checkbox:checked+.ui-switch {
+.ui-tab-bar.SIDE .ui-tab-bar-item.selected, .ui-tab-bar.SIDE .ui-tab-bar-item:active, ._3Mv0RaJ0, .ui-switch-checkbox:checked+.ui-switch, .chat .new-messages-bar, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary, .ui-standard-sidebar-view #editor-detached button, .ui-switch-wrapper:not(.disabled):not(.clear):hover .ui-switch-checkbox:checked+.ui-switch, .buttonBrandFilled-3Mv0Ra, .bd-pfbtn, .ui-standard-sidebar-view #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button {
   background: #00bad2;
 }
 
 .private-channels .channel.selected .icon-friends {
   background-color: #00bad2;
-  /*i'm not dumb, this distinction was important*/
 }
-
+.buttonBrandFilledDefault-2Rs6u5:hover, .ui-standard-sidebar-view #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover {
+  background: #009eb2;
+}
 .ui-card.ui-card-primary.flex-horizontal.margin-bottom-8.checked.editable, .form .btn-primary, .checkbox .checkbox-inner input[type=checkbox]:checked+span, .tooltip {
   background: #00bad2 !important;
   border-color: #00bad2 !important;
@@ -325,8 +326,14 @@ textarea:focus {
   border-color: #d11800;
   background: rgba(209, 24, 0, 0.1);
 }
-.guilds-wrapper .guilds-error:hover {
-  background-color: #d11800
+.guilds-wrapper .guilds-error:hover, .notice.notice-danger {
+  background-color: #d11800;
+}
+.ui-tab-bar.SIDE .ui-tab-bar-item.danger, .buttonRedOutlined-2t9fm_ {
+  color: #d11800;
+}
+.buttonRedOutlined-2t9fm_ {
+  border-color: rgba(209, 24, 0, 0.3)
 }
 .wrapper-fDmxzK /*space out channels*/ {
   padding-bottom: 4px;
@@ -338,12 +345,16 @@ textarea:focus {
 .modal-content .form-inner p {
   color: #fff;
 }
+.bd-pfbtn {
+  font-family: Ubuntu;
+  padding: 3px;
+}
 /*shadowed borders*/
 .flex-spacer.flex-vertical {
   box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
   z-index: 1;
 }
-.chat>.title-wrap.title-wrap-dark {
+.chat>.title-wrap.title-wrap-dark, .ui-standard-sidebar-view .scroller, .guilds-wrapper {
   box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
 }
 .guild-header header {
