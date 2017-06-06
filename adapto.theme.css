@@ -5,9 +5,11 @@
   border: none;
   z-index: 4;
 }
+
 .theme-dark .message-group a, .theme-dark .chat .welcome-message a {
   color: #00bad2;
 }
+
 .guilds-wrapper .guilds-add {
   background: #222d32;
   color: #ffffff;
@@ -89,11 +91,15 @@ textarea:focus {
 .theme-dark .channel-textarea-emoji {
   display: none;
 }
+
+
 /*scrollbars*/
+
 ::-webkit-scrollbar-track-piece {
   background-color: transparent !important;
   border: none !important;
 }
+
 ::-webkit-scrollbar-thumb {
   border: none !important;
   background-color: #5e6a6e !important;
@@ -147,9 +153,11 @@ textarea:focus {
 .private-channels .channel.selected .icon-friends {
   background-color: #00bad2;
 }
+
 .buttonBrandFilledDefault-2Rs6u5:hover, .ui-standard-sidebar-view #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover {
   background: #009eb2;
 }
+
 .ui-card.ui-card-primary.flex-horizontal.margin-bottom-8.checked.editable, .form .btn-primary, .checkbox .checkbox-inner input[type=checkbox]:checked+span, .tooltip {
   background: #00bad2 !important;
   border-color: #00bad2 !important;
@@ -268,7 +276,6 @@ textarea:focus {
   transition: border 0.2s ease-out;
 }
 
-
 .note textarea:focus {
   background: transparent;
   border-bottom: 2px solid #00bad2;
@@ -278,9 +285,11 @@ textarea:focus {
 .theme-dark #friends .friends-table .friends-row:hover {
   background: rgba(255, 255, 255, 0.02);
 }
+
 .name-2SL4ev {
   font-weight: 400;
 }
+
 .search-bar .search-bar-inner {
   border: none;
   border-radius: 0px;
@@ -300,64 +309,87 @@ textarea:focus {
 .theme-dark .channel-textarea-inner .channel-textarea-upload {
   border: none;
 }
+
 .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
   background-color: #243035;
   box-shadow: none;
 }
+
 .mention {
   color: #00bad2;
 }
+
 .theme-dark .message-group .comment .markup .mention {
   background-color: rgba(0, 186, 210, 0.1);
 }
+
 .theme-dark .message-group .comment .markup .mention:hover {
   background-color: rgba(0, 186, 210, 0.3);
 }
+
 .contentSelectedText-3j5CXt {
   background: rgba(255, 255, 255, 0.02);
 }
+
 .tooltip.tooltip-error {
   background-color: #d11800 !important;
 }
+
 .tooltip.tooltip-error.tooltip-right:after {
   border-right-color: #d11800;
 }
+
 .guilds-wrapper .guilds-error {
   border-color: #d11800;
   background: rgba(209, 24, 0, 0.1);
 }
+
 .guilds-wrapper .guilds-error:hover, .notice.notice-danger {
   background-color: #d11800;
 }
+
 .ui-tab-bar.SIDE .ui-tab-bar-item.danger, .buttonRedOutlined-2t9fm_ {
   color: #d11800;
 }
+
 .buttonRedOutlined-2t9fm_ {
   border-color: rgba(209, 24, 0, 0.3)
 }
-.wrapper-fDmxzK /*space out channels*/ {
+
+.wrapper-fDmxzK
+/*space out channels*/
+
+{
   padding-bottom: 4px;
 }
+
 .theme-dark .chat form {
   border: none;
   box-shadow: none;
 }
+
 .modal-content .form-inner p {
   color: #fff;
 }
+
 .bd-pfbtn {
   font-family: Ubuntu;
   padding: 3px;
 }
+
+
 /*shadowed borders*/
+
 .flex-spacer.flex-vertical {
-  box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.15);
   z-index: 1;
 }
+
 .chat>.title-wrap.title-wrap-dark, .ui-standard-sidebar-view .scroller, .guilds-wrapper {
-  box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.15);
 }
+
 .guild-header header {
-  box-shadow: -2px 1px 1px 1px rgba(0,0,0,0.15);
+  box-shadow: -2px 1px 1px 1px rgba(0, 0, 0, 0.15);
   border: none;
 }
