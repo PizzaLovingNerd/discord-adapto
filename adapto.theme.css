@@ -30,7 +30,7 @@
 
 /*Left and Right Sidebar Color*/
 
-.theme-dark .channel-members, .guild-channels, .account, .guild-channels .channel-text.selected, #rtc-connection, .theme-dark .message-group .embed, .private-channels, .container-RYiLUQ {
+.theme-dark .channel-members, .guild-channels, .account, .guild-channels .channel-text.selected, #rtc-connection, .theme-dark .message-group .embed, .private-channels, .container-RYiLUQ, .container-3lnMWU, .container-iksrDt {
   background-color: #243035;
 }
 
@@ -134,10 +134,12 @@ textarea:focus {
   background: transparent;
 }
 
-.theme-dark .chat .title-wrap, .guild-header header {
+.theme-dark .chat .title-wrap, .guild-header header, .search-popout {
   background-color: #222d32;
 }
-
+.search-popout .option:after {
+  background: transparent;
+}
 #rtc-connection .btn-info {
   border: none;
 }
@@ -148,10 +150,6 @@ textarea:focus {
 
 .ui-tab-bar.SIDE .ui-tab-bar-item.selected, .ui-tab-bar.SIDE .ui-tab-bar-item:active, ._3Mv0RaJ0, .ui-switch-checkbox:checked+.ui-switch, .chat .new-messages-bar, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary, .ui-standard-sidebar-view #editor-detached button, .ui-switch-wrapper:not(.disabled):not(.clear):hover .ui-switch-checkbox:checked+.ui-switch, .buttonBrandFilled-3Mv0Ra, .bd-pfbtn, .ui-standard-sidebar-view #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button {
   background: #00bad2;
-}
-
-.private-channels .channel.selected .icon-friends {
-  background-color: #00bad2;
 }
 
 .buttonBrandFilledDefault-2Rs6u5:hover, .ui-standard-sidebar-view #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover {
@@ -376,8 +374,12 @@ textarea:focus {
   font-family: Ubuntu;
   padding: 3px;
 }
-
-
+.container-3lnMWU {
+  border: none;
+}
+.private-channels .channel.selected a, .private-channels .channel:hover a {
+  background-color: transparent;
+}
 /*shadowed borders*/
 
 .flex-spacer.flex-vertical {
